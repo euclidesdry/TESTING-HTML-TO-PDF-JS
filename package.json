@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "Testing HTML to PDF",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "euclidesdry@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "html-pdf": "^3.0.1",
+    "puppeteer": "^10.2.0"
+  }
 }
